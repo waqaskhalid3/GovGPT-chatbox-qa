@@ -1,7 +1,7 @@
-# U-Ask Chatbot – Automated QA Test Suite
+# GovGPT Chatbot – Automated QA Test Suite
 
 ## 📌 Overview
-This repository contains an end-to-end automated QA test suite for the **U-Ask AI-powered chatbot** launched by the UAE Government. The tests validate chatbot behavior, AI response quality, accessibility, language support, and UI consistency across desktop and mobile.
+This repository contains an end-to-end automated QA test suite for the **GovGPT AI-powered chatbot** launched by the UAE Government. The tests validate chatbot behavior, AI response quality, accessibility, language support, and UI consistency across desktop and mobile.
 
 ---
 
