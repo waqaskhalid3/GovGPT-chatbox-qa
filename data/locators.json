@@ -1,0 +1,25 @@
+{
+  "login_page": {
+    "login_credentials_button": "//button[contains(text(), 'Login using Credentials')]", 
+    "email_input": "email",
+    "password_input": "password",
+    "sign_in_button": "button[type='submit']"
+  },
+  "dashboard_page": {
+    "welcome_message": "//h1[starts-with(normalize-space(),'Hey ')]",
+    "input_box": "chat-input",
+    "html_tag": "/html",
+    "profile_button": "//img[@alt='User profile']",
+    "switch_to_arabic": "//button[.//div[contains(text(),'Switch to Arabic')]]",
+    "switch_to_english":"//button[.//div[contains(text(),'التبديل إلى اللغة الإنجليزية')]]"
+  },
+  "chat_widget": {
+    "widget_container": "chat-input",
+    "empty_indicator": "p.is-empty.is-editor-empty",
+    "message_container": "messages-container",
+    "ai_message": "(//div[contains(@class, 'chat-assistant')])[last()]",
+    "loading_shimmer": "shimmer-text",
+    "response_complete_indicator": "button[aria-label='Good Response']",
+    "send_button": "send-message-button"
+  }
+}
