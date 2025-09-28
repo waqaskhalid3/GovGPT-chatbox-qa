@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *.sqlite3
+.env
 
 # Virtual environment
 venv/
@@ -12,3 +13,4 @@ venv/
 # Logs and Reports (KEEP)
 !logs/
 !reports/
+screenshots/
