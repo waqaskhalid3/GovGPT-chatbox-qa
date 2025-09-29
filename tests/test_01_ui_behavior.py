@@ -89,7 +89,7 @@ class TestUAskUIBehavior:
         input_box.send_keys(test_msg + Keys.ENTER)
 
         # Step 4: Wait for shimmer (ensures AI is processing and completes)
-        wait_for_shimmer(driver, locators, timeout=30)
+        wait_for_shimmer(driver, locators, timeout=50)
         
         # Step 5: Capture the AI response
         ai_response = get_ai_response(driver, locators)

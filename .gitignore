@@ -10,7 +10,4 @@ venv/
 # OS files
 .DS_Store
 
-# Logs and Reports (KEEP)
-!logs/
-!reports/
-screenshots/
+
